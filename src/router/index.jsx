@@ -1,12 +1,14 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
-import { App } from './assemly'
+import { App, Default } from './assembly'
 
 export default function Router () {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/" component={App} />
+        <Route path="/app" component={App} />
+        <Route path="/" component={Default} />
+
       </Switch>
     </BrowserRouter>
   )

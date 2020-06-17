@@ -1,7 +1,9 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom'
 import Router from '@/router'
-import './index.less';
+import '@/utils/reset.css'
+import '@/utils/rem'
+import './index.less'
 
 ReactDOM.render(
   <Router />,
