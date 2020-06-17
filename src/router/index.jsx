@@ -8,7 +8,6 @@ export default function Router () {
       <Switch>
         <Route path="/app" component={App} />
         <Route path="/" component={Default} />
-
       </Switch>
     </BrowserRouter>
   )

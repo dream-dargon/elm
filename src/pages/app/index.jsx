@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { createFromIconfontCN } from '@ant-design/icons'
 import { Switch, Route, Redirect, NavLink } from 'react-router-dom'
 import { TakeOut, Search, Order, Mine } from '@/router/assembly'
