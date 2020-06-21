@@ -6,7 +6,7 @@ const TakeOut = Loadable(() => import('@/pages/take-out'))
 const Search = Loadable(() => import('@/pages/search'))
 const Order = Loadable(() => import('@/pages/order'))
 const Mine = Loadable(() => import('@/pages/mine'))
-
+const City = Loadable(() => import('@/pages/city'))
 export {
   Default,
   App,
@@ -14,4 +14,5 @@ export {
   Search,
   Order,
   Mine,
+  City,
 }
