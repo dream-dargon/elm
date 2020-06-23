@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 import React,{useEffect} from 'react'
 import { connect } from 'react-redux'
 import { Head, City } from '@@'
 import { getGuess, getHot, getGroup } from '@/actions/default'
 import './style.less'
+=======
+import React from 'react'
+>>>>>>> daeb4118ae46f307b2b4749a125b9a94093cc3ff
 
 export default connect(({ defaluts }) => {
   return { 
