@@ -14,10 +14,10 @@ export default connect(({ defaluts }) => {
 },{
   getGuess,
   getHot,
-  getGroup
+  getGroup,
 })(Default)
 function Default (props) {
-  const { getGuess, getHot, guessName, hotCity, getGroup, groupCity, id } = props
+  const { getGuess, getHot, guessName, hotCity, getGroup, groupCity, id, } = props
   const keys = Object.keys(groupCity).sort((a,b)=> a.charCodeAt(0)-b.charCodeAt(0))
   useEffect(()=>{
     getGuess('guess')

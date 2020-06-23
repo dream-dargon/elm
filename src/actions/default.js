@@ -16,7 +16,6 @@ export function getHot (payload) {
   }
 }
 //获取全部城市
-//获取热门城市
 export function getGroup (payload) {
   return {
     type: FETCH_GET_GROUP,
